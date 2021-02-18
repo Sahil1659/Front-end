@@ -1,0 +1,140 @@
+body
+{
+	background-color: white;
+}
+.signup-win
+{
+	position: absolute;
+	top:10%;
+	left:35%;
+	width: 400px; 
+	background-color: white;
+	padding: 20px;
+	border:1px gray solid;
+	box-shadow: 0px 0px 5px 5px gray;
+	border-radius: 10px;
+	/*background-image: url(../pics/27.jpg);*/
+    background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+
+
+#signup-win:hover
+{
+box-shadow: 0px 0px 20px 5px gray;
+	
+}
+
+.login-win
+{
+	position: absolute;
+	top:10%;
+	left:35%;
+	width: 400px; 
+	background-color: white;
+	padding: 20px;
+	border:1px gray solid;
+	box-shadow: 0px 0px 5px 5px gray;
+	border-radius: 10px;
+	background-image: url(../pics/27.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+
+#login-win:hover
+{
+box-shadow: 0px 0px 20px 5px gray;
+	
+}
+
+.imgg
+{
+	border-radius: 50%;
+	border:1px black solid;
+}
+#cross{
+	float: right;
+	background-image: url(../pics/cross.jpg);
+	width: 30px; height: 30px;;
+	border: 0px red solid;
+	background-size: contain;
+	margin-right: 10px;
+	margin-top: 10px;;
+}
+
+#cross-l{
+	float: right;
+	background-image: url(../pics/cross.jpg);
+	width: 30px; height: 30px;;
+	border: 0px red solid;
+	background-size: contain;
+	margin-right: 10px;
+	margin-top: 10px;;
+}
+
+
+input[type="text"],input[type="password"]
+{
+	line-height: 30px;
+	width: 100%;
+	color: darkred;
+	font-size: 20px;
+	text-align: center;
+	border:1px black solid;
+	outline: none;
+}
+
+.user
+{
+	background-image: url(../pics/user.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+}
+input[type="text"]:focus
+{
+	background-color: lightgray;
+}
+input[type="password"]:focus
+{
+	background-color: lightgray;
+}
+
+.headings
+{
+	font-weight: bolder;
+	font-size: 20px;
+}
+/*.btn
+		{
+			background-color: purple;
+			color: white;
+			text-align: center;
+			
+			width: inline;
+			
+			padding: 10px;
+			margin-left: 10px;
+			cursor: pointer;
+			
+			border-radius: 15px 15px 0px 0px;
+			margin: 10px;
+						
+
+		}
+		.btn:hover{ 
+			background-color: mediumpurple;
+			
+			border-radius: 15px 0px 15px 0px;
+			
+		}
+		.btn:active{ 
+			transform: translate(0px,5px);
+		}*/
+		

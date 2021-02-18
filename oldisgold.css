@@ -1,0 +1,28 @@
+#title{
+    background-color: aqua;
+    height: 60px;
+    font-family: cursive;
+    font-size: 40px;
+    color: red;
+}
+#SL{
+    background-color: hotpink;
+    height: 60px;
+    
+}
+#btn{
+    float: right;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: purple;
+    color: 
+}
+#btn:hover{
+    background-color: orangered;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+open({
+    
+});

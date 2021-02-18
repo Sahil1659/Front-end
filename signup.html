@@ -1,0 +1,218 @@
+<html>
+<title>biteup.com</title>
+<head>
+<link rel="stylesheet" href="style/bootstrap.css">
+ <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+   $(document).ready(function(){
+       $("#a1,.dropdown-menu").mouseenter(function(){
+           $(".dropdown-menu").fadeIn();
+       });
+       $("#a1,.dropdown-menu").mouseleave(function(){
+                           $(".dropdown-menu").fadeOut();
+                           });
+       $("#mbtn").click(function(){
+           var n=$("#uname").val();
+                     alert("Data is stored having Username: "+n);
+           
+        
+
+       });
+   });
+    </script>
+    </head>
+    <body class="main">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+
+  <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" width="45px" height="45px"></a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="WTPROJECT.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="signup.html">Sign Up</a>
+      </li>
+      <li class="nav-item">
+         <div class="dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown"id="a1" href="#" >Contact
+          
+             </a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" data-toggle="modal" data-target="#m1">Reach Us</a>
+              <a class="dropdown-item" href="review.html">Send Feedback</a>
+          </div>
+              </div>
+             
+          
+           </li>
+    </ul>
+  </div>
+        </nav>
+            <div class="modal fade" id="m1">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-light">
+                <div class="modal-header bg-success"><h2>Welcome to Biteup.com</h2>
+                    <button class="close" data-dismiss="modal">&times;</button></div>
+                    <div class="modal-title"></div>
+                <div class="modal-body"><h3>Please Enter the Correct Information</h3><p>We Will reach you soon.</p>
+                  <form action="#" class="was-validated">
+  
+  <div class="form-group">
+      <h4> <label for="uname"></label>Enter Username:</h4>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" minlength="4" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    
+    <div class="form-group">
+        <h4><label for="num"></label>Enter Contact No.:</h4>
+      <input type="digit" class="form-control" id="num" placeholder="Enter 10 digit No." name="num"minlength="10" maxlength="10" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group form-check">
+      
+        <input class="form-check-input larger" type="checkbox" name="remember" required> <h6>Remember Me</h6>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      
+    </div>
+     
+      </form> 
+                    </div>
+              
+                    <div class="modal-footer"><button class="btn btn-success btn-block"id="mbtn">Submit</button></div>
+                  </div>
+            </div>
+            
+            </div>
+         <div class=" card bg-dark " style="width:80%;margin-left: 10%;margin-right: 10%; ">
+<!--  <img alt="card-img" style="width:370px;height:250px;"src="ff.png">-->
+ <div class="card-img-top">
+     <div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pizzaslices.jpg" width="100%" height="500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Hungry?</h2>
+                    <h3>Pizza</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="momos.jpg" width="100%" height="500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Unexpected Guests?</h2>
+                    <h3>Momos</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="rajma.jpg" width="100%" height="500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Order Now and get exciting offers...</h2>
+                    <h3>Indian Dishes</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="icecream.jpg" width="100%" height="500px" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Get Food Delivered at your Doorsteps...</h2>
+                    <h3>Shake the Heat</h3>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+ </div>
+  <div class="card-body">
+  <form action="account.html" class="was-validated">
+  
+  <div class="form-group">
+      <h4 class="text-white"> <label for="uname">Enter Username:</label></h4>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" minlength="4" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    
+    <div class="form-group">
+        <h4 class="text-white"><label for="pwd">Enter Password:</label></h4>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password"minlength="8" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+        <h4 class="text-white"><label for="email">Enter Email:</label></h4>
+      <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+        <h4 class="text-white"><label for="num">Enter Contact No.:</label></h4>
+      <input type="digit" class="form-control" id="pwd" placeholder="Enter 10 digit number" name="num" minlength="10" maxlength="10"required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+        <h4 class="text-white"><label for="add">Enter Address:</label></h4>
+        <textarea rows="3" cols="5" class="form-control" id="add" placeholder="Enter Address"minlength="10" name="add" required></textarea>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group form-check">
+      
+        <input class="form-check-input larger" type="checkbox" name="remember" required> <h6 class="text-white">Remember Me</h6>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      
+    </div>
+     <button class="btn btn-success btn-block">Sign  In</button>
+      </form> 
+    <div class="card-body">
+    <h6 class="text-white text-center">Or Log In using </h6>
+        <div class="btn-group-sm text-center">
+                    
+              <a class="card-link" href="https://www.instagram.com/"> <img src="insta.png"width="50px"height="50px" ></a>
+           
+             
+                 <a class="card-link" href="https://www.facebook.com/">  <img src="face.png"width="50px"height="50px"></a>
+              <a class="card-link" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="google.png"width="50px"height="50px"></a>
+           
+                </div>
+        </div>
+     </div>
+                    </div> 
+   
+    
+    <div class="cpyrit bg-dark" style="margin-top:150px;">
+        <h3>biteup.com</h3><br>
+        Copyright &copy;2019,biteup.com All Rights Reserved
+    </div>
+    </body>
+</html>

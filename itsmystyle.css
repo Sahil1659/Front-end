@@ -1,0 +1,86 @@
+body
+{
+    background-color: black;
+}
+*
+{
+    margin: 0px;
+}
+#initial
+{
+    background-color: orange;
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+}
+#title-div
+{
+    width: inherit;
+    height: 50px;
+    
+}
+#menu-div
+{
+    border: 1px yellow solid;
+    width: inherit;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: purple;
+    float: left;
+}
+#menu-div ol
+{
+    list-style: none;
+    margin-top: 8px;
+   
+}
+#menu-div li
+{
+    float: left;
+    background-color: pink;
+
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#title-pic
+{
+    width: inherit;
+    height: 200px;
+    background-image: url(../pics/wallpaper.jpg);
+    background-size: contain;
+}
+#title:hover
+{
+    opacity: 1;
+    background-image: url(../pics/IMG_20171217_200300.jpg);
+}
+#ourproducts
+{
+    width: inherit;
+    height: 50px;
+    background-color: gray;
+}
+#ourproducts-2
+{
+     width: inherit;
+    height: 250px;
+    background-color: gainsboro;
+}
+#ourteam
+{
+    width: inherit;
+    height: 50px;
+    background-color:azure;
+}
+#ourteam2
+{
+    width: inherit;
+    height: 300px;
+    background-color: aqua;
+}
+#copy
+{
+    width: inherit;
+    height: 50px;
+}

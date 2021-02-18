@@ -1,0 +1,73 @@
+.main-div {
+    background-color: blue;
+    height: 60px;
+    border: 1px solid blue;
+    padding: 10px;
+    color: white;
+}
+
+.doctor-btn {
+    float: right;
+    background-color: white;
+    padding: 5px;
+    margin-right: 10px;
+    color: blue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.doctor-btn:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.patient-btn {
+    float: right;
+    background-color: white;
+    padding: 5px;
+    margin-right: 10px;
+    color: blue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.patient-btn:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.hide {
+    display: none;
+}
+
+.doctor-div {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.patient-div {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info{
+    height: 380px;
+    margin: 70px;
+    /*font-weight: bold;
+    opacity: .8;*/
+}
+.gcse-search{
+    width: 300px;
+}
+.cpyrit{
+    /*margin-top: 200px;
+    position: absolute;*/
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
